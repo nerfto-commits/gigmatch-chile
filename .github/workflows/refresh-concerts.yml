@@ -1,0 +1,40 @@
+name: 🎵 Refresh Cartelera Chile
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch real concerts (SerpAPI server-side)
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          GEMINI_KEY:  ${{ secrets.GEMINI_KEY }}
+        run: node scripts/refresh-concerts.mjs
+
+      - name: Commit data/concerts.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/concerts.json)" ]; then
+            git add data/concerts.json
+            git commit -m "🎵 refresh cartelera Chile · $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Cartelera actualizada"
+          else
+            echo "ℹ️ Sin cambios"
+          fi
