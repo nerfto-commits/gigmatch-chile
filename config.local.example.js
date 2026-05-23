@@ -22,6 +22,10 @@ window.GIGMATCH_CONFIG = {
   // — Spotify OAuth (público por diseño OAuth, NO es secreto) —
   // https://developer.spotify.com/dashboard
   SPOTIFY_CLIENT_ID: '',
+  // Debe coincidir EXACTO con Spotify Dashboard → Redirect URIs.
+  // Ej local: http://localhost:8080/index.html
+  // Ej GitHub Pages: https://nerfto-commits.github.io/gigmatch-chile/index.html
+  SPOTIFY_REDIRECT_URI: '',
 
   // — Google OAuth (público por diseño OAuth, NO es secreto) —
   // https://console.cloud.google.com/apis/credentials
