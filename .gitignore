@@ -1,0 +1,32 @@
+# ──────────────────────────────────────────────────────────────────────
+# GigMatch Chile — archivos NO compartidos públicamente
+# ──────────────────────────────────────────────────────────────────────
+
+# Config con API keys reales (NUNCA commitear)
+config.local.js
+
+# Scripts/temporal de pruebas locales
+*.local.html
+*.local.js
+.env
+.env.local
+
+# Builds y caches
+node_modules/
+.cache/
+dist/
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Empaquetados generados
+*.rar
+*.zip
+*.7z
+
+# Logs
+*.log
+npm-debug.log*
