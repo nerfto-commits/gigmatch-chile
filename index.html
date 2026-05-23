@@ -193,7 +193,11 @@ select.input option{background:#ffffff;color:var(--text)}
 .sp-card.sp-far-r{transform:translateX(378px) scale(0.72);z-index:2;filter:grayscale(100%) brightness(0.36);opacity:.6}
 .sp-card.sp-far-l{transform:translateX(-378px) scale(0.72);z-index:2;filter:grayscale(100%) brightness(0.36);opacity:.6}
 .sp-card.sp-hidden{transform:translateX(0) scale(0.3);z-index:0;opacity:0;pointer-events:none}
-.sp-card-label{position:absolute;bottom:0;left:0;right:0;padding:18px 13px 13px;background:linear-gradient(to top,rgba(0,0,0,.95) 0%,rgba(0,0,0,.45) 55%,transparent 100%)}
+.sp-card-label{position:absolute;bottom:0;left:0;right:0;padding:22px 15px 16px;background:linear-gradient(to top,rgba(0,0,0,.96) 0%,rgba(0,0,0,.78) 40%,rgba(0,0,0,.35) 75%,transparent 100%);color:#fff}
+.sp-card-label *{color:#fff!important}
+.sp-card-label .sp-region{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px;opacity:.85}
+.sp-card-label .sp-artist{font-size:18px;font-weight:900;line-height:1.1;margin-bottom:6px;text-shadow:0 2px 6px rgba(0,0,0,.8)}
+.sp-card-label .sp-date{font-size:11px;font-weight:600;opacity:.92;text-shadow:0 1px 3px rgba(0,0,0,.7)}
 .sp-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:10;width:44px;height:44px;border-radius:50%;background:var(--pink);border:none;color:#fff;font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(247,37,133,.5);transition:transform .2s,box-shadow .2s;font-weight:800;line-height:1}
 .sp-arrow:hover{transform:translateY(-50%) scale(1.12);box-shadow:0 6px 26px rgba(247,37,133,.65)}
 .sp-left{left:14px}.sp-right{right:14px}
@@ -724,30 +728,58 @@ function enrichConcertLocation(c){
   return out;
 }
 
-// ─── WIKI IMAGE — HD VERSION ─────────────────────────────
-async function loadWikiImage(artistName){
-  const slug = WIKI_SLUGS[artistName];
-  if(!slug) return null;
-  if(ARTIST_IMGS[artistName]) return ARTIST_IMGS[artistName];
+// ─── WIKI IMAGE — HD VERSION (auto-slug, español + inglés) ──────────────────
+// Convierte "Ricardo Arjona" → "Ricardo_Arjona" para el slug de Wikipedia
+function _autoSlug(name){
+  return String(name||'').trim().replace(/\s+/g,'_');
+}
+
+async function _tryWikiSummary(slug, lang='es'){
   try{
-    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`);
+    const res = await fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`);
     if(!res.ok) return null;
     const data = await res.json();
-    // Prefer originalimage (HD), fallback to thumbnail bumped to 640px
+    if(data?.type==='disambiguation') return null;
     let url = data?.originalimage?.source || null;
     if(!url && data?.thumbnail?.source){
       url = data.thumbnail.source.replace(/\/\d+px-/,'/640px-');
     }
-    if(url) ARTIST_IMGS[artistName] = url;
-    return url;
-  } catch(e){
-    return null;
+    return url || null;
+  }catch(e){ return null; }
+}
+
+async function loadWikiImage(artistName){
+  if(!artistName) return null;
+  if(ARTIST_IMGS[artistName]) return ARTIST_IMGS[artistName];
+  // 1. Slug manual del diccionario (en inglés)
+  const manualSlug = WIKI_SLUGS[artistName];
+  // 2. Auto-slug del nombre (sirve para casi cualquier artista conocido)
+  const autoSlug = _autoSlug(artistName);
+  // 3. Variantes con "(band)" o "(banda)" para nombres ambiguos
+  const slugBand = autoSlug + '_(band)';
+  const slugBanda = autoSlug + '_(banda)';
+
+  const tries = [
+    manualSlug ? ['en', manualSlug] : null,
+    ['es', autoSlug],
+    ['en', autoSlug],
+    ['es', slugBanda],
+    ['en', slugBand],
+  ].filter(Boolean);
+
+  for(const [lang, slug] of tries){
+    const url = await _tryWikiSummary(slug, lang);
+    if(url){ ARTIST_IMGS[artistName] = url; return url; }
   }
+  return null;
 }
 
 async function loadAllArtistImages(){
-  const artists = Object.keys(WIKI_SLUGS).filter(a=>WIKI_SLUGS[a]);
-  await Promise.allSettled(artists.map(a=>loadWikiImage(a)));
+  // Combinar artistas manuales + cualquier artista de la cartelera real cargada
+  const fromDict = Object.keys(WIKI_SLUGS).filter(a=>WIKI_SLUGS[a]);
+  const fromReal = (REAL_CONCERTS?.data||[]).map(c=>c.artist).filter(Boolean);
+  const all = [...new Set([...fromDict, ...fromReal])];
+  await Promise.allSettled(all.map(a=>loadWikiImage(a)));
   _applyArtistImages();
 }
 
@@ -1920,20 +1952,17 @@ function viewFanDiscover(){
     const emoji=ARTIST_EMOJI[c.artist]||'🎸';
     const bgImg=ARTIST_IMGS[c.artist];
     const dt=fmtDate(c.date);
-    const bgStyle=bgImg?`background-image:url('${bgImg}');background-size:cover;background-position:center top`:`background:${grad}`;
-    // Overlay más suave cuando no hay imagen → permite que el color del gradiente se vea
-    const overlayGrad=bgImg
-      ?'linear-gradient(to top,rgba(0,0,0,.93) 0%,rgba(0,0,0,.08) 55%,transparent 100%)'
-      :'linear-gradient(to top,rgba(0,0,0,.78) 0%,rgba(0,0,0,.12) 60%,rgba(255,255,255,.08) 100%)';
+    const bgStyle=bgImg
+      ?`background-image:url('${bgImg}');background-size:cover;background-position:center top`
+      :`background:${grad}`;
     return `<div class="sp-card ${cls}" data-cid="${esc(c.id)}" data-artist-bg="${esc(c.artist)}">
       <div style="position:absolute;inset:0;${bgStyle}"></div>
-      <div style="position:absolute;inset:0;background:${overlayGrad}"></div>
-      ${!bgImg?`<div style="position:absolute;top:14px;right:14px;font-size:2.6rem;opacity:.55;filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))">${emoji}</div>`:''}
+      ${!bgImg?`<div style="position:absolute;top:14px;right:14px;font-size:2.6rem;opacity:.6;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))">${emoji}</div>`:''}
       <div class="sp-card-label">
-        <div style="font-size:10px;font-weight:800;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,.7)">${esc(c.region||c.city||'Chile')}</div>
-        <div style="font-size:18px;font-weight:900;color:#fff;line-height:1.1;margin-bottom:6px;text-shadow:0 2px 4px rgba(0,0,0,.6)">${esc(c.artist)}</div>
-        <div style="width:24px;height:3px;background:#22c55e;border-radius:2px;margin-bottom:6px;box-shadow:0 0 8px rgba(34,197,94,.5)"></div>
-        <div style="font-size:11px;color:rgba(255,255,255,.88);font-weight:600;text-shadow:0 1px 2px rgba(0,0,0,.6)">${dt.d} ${dt.m} ${dt.y} · ${esc(c.city)}</div>
+        <div class="sp-region">${esc(c.region||c.city||'Chile')}</div>
+        <div class="sp-artist">${esc(c.artist)}</div>
+        <div style="width:26px;height:3px;background:#22c55e;border-radius:2px;margin:0 0 7px;box-shadow:0 0 10px rgba(34,197,94,.6)"></div>
+        <div class="sp-date">${dt.d} ${dt.m} ${dt.y} · ${esc(c.city)}</div>
       </div>
     </div>`;
   }
@@ -3107,6 +3136,7 @@ function setupEvents(){
       const results=await fetchRealConcerts();
       if(results&&results.length){
         render(); // re-render con los datos reales
+        loadAllArtistImages(); // cargar fotos de Wikipedia para los nuevos artistas
       } else {
         render(); // mostrar estado honesto sin datos inventados
       }
