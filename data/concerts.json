@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-05-25T18:11:46.704Z",
+  "lastUpdate": "2026-05-26T19:35:12.648Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 13,
+  "count": 12,
   "concerts": [
     {
       "artist": "Guerreras Doradas en Teatro Caupolicán",
@@ -188,22 +188,6 @@
       "date": "2026-10-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/alex-ubago-vina",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Los Jaivas 2026 Gira 45 años alturas de Macchu...",
-      "event": "Los Jaivas 2026 Gira 45 años alturas de Macchu...",
-      "venue": "Teatro Municipal de Valparaíso - Uruguay 410",
-      "city": "Valparaíso",
-      "region": "Región Metropolitana",
-      "date": "2026-12-12",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/los-jaivas-teatro-municipal-valparaiso-dic-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
