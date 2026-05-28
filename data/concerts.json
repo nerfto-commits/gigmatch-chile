@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-27T19:38:49.755Z",
+  "lastUpdate": "2026-05-28T19:59:04.492Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 10,
   "concerts": [
@@ -68,22 +68,6 @@
       "festival": false
     },
     {
-      "artist": "Marlon Breeze en Teatro Caupolicán",
-      "event": "Marlon Breeze en Teatro Caupolicán",
-      "venue": "Teatro Caupolicán - San Diego 850",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-06-13",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/marlon-breezee-teatro-caupolican-jun-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
       "artist": "Michael Jackson en Teatro Caupolicán",
       "event": "Michael Jackson en Teatro Caupolicán",
       "venue": "Teatro Caupolicán - San Diego 850",
@@ -132,14 +116,30 @@
       "festival": false
     },
     {
-      "artist": "Rata Blanca",
-      "event": "Rata Blanca",
-      "venue": "Teatro Coliseo - Nataniel Cox 59",
+      "artist": "Paloma Salas en Teatro Caupolicán",
+      "event": "Paloma Salas en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán - San Diego 850",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-28",
+      "date": "2026-08-14",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/rata-blanca-teatro-coliseo-ago-2026",
+      "url": "https://www.puntoticket.com/evento/paloma-salas-teatro-caupolican-ago-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Joaquin Cortés en Movistar Arena",
+      "event": "Joaquin Cortés en Movistar Arena",
+      "venue": "Movistar Arena - Av. Beauchef 1204",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-08-19",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
