@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-28T19:59:04.492Z",
+  "lastUpdate": "2026-05-29T20:40:07.609Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 10,
   "concerts": [
@@ -116,14 +116,14 @@
       "festival": false
     },
     {
-      "artist": "Paloma Salas en Teatro Caupolicán",
-      "event": "Paloma Salas en Teatro Caupolicán",
+      "artist": "Topa en Teatro Caupolicán",
+      "event": "Topa en Teatro Caupolicán",
       "venue": "Teatro Caupolicán - San Diego 850",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-14",
+      "date": "2026-08-09",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/paloma-salas-teatro-caupolican-ago-2026",
+      "url": "https://www.puntoticket.com/evento/topa-un-mundo-de-colores-teatro-caupolican-ago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -132,14 +132,14 @@
       "festival": false
     },
     {
-      "artist": "Joaquin Cortés en Movistar Arena",
-      "event": "Joaquin Cortés en Movistar Arena",
-      "venue": "Movistar Arena - Av. Beauchef 1204",
+      "artist": "Paloma Salas en Teatro Caupolicán",
+      "event": "Paloma Salas en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán - San Diego 850",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-19",
+      "date": "2026-08-14",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
+      "url": "https://www.puntoticket.com/evento/paloma-salas-teatro-caupolican-ago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
