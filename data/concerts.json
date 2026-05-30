@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-05-29T20:40:07.609Z",
+  "lastUpdate": "2026-05-30T15:54:24.101Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 10,
+  "count": 11,
   "concerts": [
     {
       "artist": "Macha y El Bloque Depresivo",
@@ -36,8 +36,8 @@
       "festival": false
     },
     {
-      "artist": "Micro TDH en Teatro Coliseo",
-      "event": "Micro TDH en Teatro Coliseo",
+      "artist": "Micro TDH - SEGUNDO ACTO TOUR",
+      "event": "Micro TDH - SEGUNDO ACTO TOUR",
       "venue": "Teatro Coliseo - Nataniel Cox 59",
       "city": "Santiago",
       "region": "Región Metropolitana",
@@ -60,6 +60,22 @@
       "date": "2026-06-13",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/dios-salve-a-la-reina-teatro-caupolican-jun-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "La Nueva Ola en Teatro Caupolicán",
+      "event": "La Nueva Ola en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán - San Diego 850",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-06-21",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/la-nueva-ola-teatro-cauopolican-jun-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -100,14 +116,14 @@
       "festival": false
     },
     {
-      "artist": "El Divo de Juarez en Teatro Caupolicán",
-      "event": "El Divo de Juarez en Teatro Caupolicán",
-      "venue": "Teatro Caupolicán - San Diego 850",
-      "city": "Santiago",
+      "artist": "El Kanka - La Calma",
+      "event": "El Kanka - La Calma",
+      "venue": "Teatro Municipal de Viña del Mar - Pl. Vergara S/N",
+      "city": "Viña del Mar",
       "region": "Región Metropolitana",
-      "date": "2026-07-26",
+      "date": "2026-07-04",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/el-divo-de-juarez-teatro-caupolican-jul-2026",
+      "url": "https://www.puntoticket.com/el-kanka-la-calma-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -116,14 +132,14 @@
       "festival": false
     },
     {
-      "artist": "Topa en Teatro Caupolicán",
-      "event": "Topa en Teatro Caupolicán",
+      "artist": "El Divo de Juarez en Teatro Caupolicán",
+      "event": "El Divo de Juarez en Teatro Caupolicán",
       "venue": "Teatro Caupolicán - San Diego 850",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-09",
+      "date": "2026-07-26",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/topa-un-mundo-de-colores-teatro-caupolican-ago-2026",
+      "url": "https://www.puntoticket.com/evento/el-divo-de-juarez-teatro-caupolican-jul-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
