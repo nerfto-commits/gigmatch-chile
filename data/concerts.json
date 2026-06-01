@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-31T15:57:01.076Z",
+  "lastUpdate": "2026-06-01T22:25:12.832Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 11,
   "concerts": [
@@ -68,6 +68,22 @@
       "festival": false
     },
     {
+      "artist": "Marlon Breeze en Teatro Caupolicán",
+      "event": "Marlon Breeze en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán - San Diego 850",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-06-13",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/marlon-breezee-teatro-caupolican-jun-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
       "artist": "La Nueva Ola en Teatro Caupolicán",
       "event": "La Nueva Ola en Teatro Caupolicán",
       "venue": "Teatro Caupolicán - San Diego 850",
@@ -100,22 +116,6 @@
       "festival": false
     },
     {
-      "artist": "Flow en Teatro Caupolicán",
-      "event": "Flow en Teatro Caupolicán",
-      "venue": "Teatro Caupolicán - San Diego 850",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-06-30",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/flow-teatro-caupolican-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
       "artist": "El Kanka - La Calma",
       "event": "El Kanka - La Calma",
       "venue": "Teatro Municipal de Viña del Mar - Pl. Vergara S/N",
@@ -124,6 +124,22 @@
       "date": "2026-07-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/el-kanka-la-calma-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "event": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "venue": "JOURNAL VIÑA DEL MAR (EX CAFE JOURNAL) - Agua Santa 4",
+      "city": "Valparaíso",
+      "region": "Región Metropolitana",
+      "date": "2026-07-24",
+      "platform": "passline",
+      "url": "https://www.passline.com/eventos/cristobal-briceno-y-el-grupo-crisis-en-journal",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -148,24 +164,8 @@
       "festival": false
     },
     {
-      "artist": "Paloma Salas en Teatro Caupolicán",
-      "event": "Paloma Salas en Teatro Caupolicán",
-      "venue": "Teatro Caupolicán - San Diego 850",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-08-14",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/paloma-salas-teatro-caupolican-ago-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Alex Ubago en Enjoy Viña del Mar",
-      "event": "Alex Ubago en Enjoy Viña del Mar",
+      "artist": "Alex Ubago",
+      "event": "Alex Ubago",
       "venue": "Casino de Viña del Mar - Av. San Martín 199",
       "city": "Viña del Mar",
       "region": "Región Metropolitana",
