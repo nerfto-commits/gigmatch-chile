@@ -1,24 +1,8 @@
 {
-  "lastUpdate": "2026-06-06T15:59:29.071Z",
+  "lastUpdate": "2026-06-07T16:54:17.928Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 15,
   "concerts": [
-    {
-      "artist": "FESTIVAL SOBREIMPRESIONES 2026",
-      "event": "FESTIVAL SOBREIMPRESIONES 2026",
-      "venue": "CENTEX",
-      "city": "Valparaíso",
-      "region": "Región Metropolitana",
-      "date": "2026-06-06",
-      "platform": "ticketplus",
-      "url": "https://ticketplus.cl/events/festival-sobreimpresiones-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": true
-    },
     {
       "artist": "Guerreras Doradas",
       "event": "Guerreras Doradas",
@@ -34,6 +18,22 @@
       "genre": "música",
       "hot": false,
       "festival": false
+    },
+    {
+      "artist": "FESTIVAL SOBREIMPRESIONES 2026",
+      "event": "FESTIVAL SOBREIMPRESIONES 2026",
+      "venue": "CENTEX",
+      "city": "Valparaíso",
+      "region": "Región Metropolitana",
+      "date": "2026-06-07",
+      "platform": "ticketplus",
+      "url": "https://ticketplus.cl/events/festival-sobreimpresiones-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": true
     },
     {
       "artist": "Micro TDH at Teatro Coliseo",
@@ -212,14 +212,14 @@
       "festival": false
     },
     {
-      "artist": "Joaquin Cortés en Movistar Arena",
-      "event": "Joaquin Cortés en Movistar Arena",
-      "venue": "Movistar Arena",
+      "artist": "San Luis en Teatro Coliseo",
+      "event": "San Luis en Teatro Coliseo",
+      "venue": "Teatro Coliseo",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-19",
+      "date": "2026-09-12",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
+      "url": "https://www.puntoticket.com/evento/Sanluis-santiago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
