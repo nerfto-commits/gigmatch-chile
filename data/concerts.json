@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-17T19:51:42.084Z",
+  "lastUpdate": "2026-06-18T20:42:11.296Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 20,
+  "count": 21,
   "concerts": [
     {
       "artist": "La Nueva Ola en Teatro Caupolicán",
@@ -220,6 +220,22 @@
       "date": "2026-08-19",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "San Luis en Teatro Coliseo",
+      "event": "San Luis en Teatro Coliseo",
+      "venue": "Teatro Coliseo",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-09-12",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/Sanluis-santiago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
