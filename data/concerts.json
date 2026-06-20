@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-19T18:20:59.374Z",
+  "lastUpdate": "2026-06-20T17:08:49.707Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 18,
+  "count": 17,
   "concerts": [
     {
       "artist": "La Nueva Ola en Teatro Caupolicán",
@@ -76,22 +76,6 @@
       "date": "2026-07-11",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/angela-carrasco-teatro-caupolican-jul-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Fear Factory",
-      "event": "Fear Factory",
-      "venue": "Teatro Caupolicán",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-07-15",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/fear-factory-en-chile-teatro-caupolican-jul-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -212,6 +196,22 @@
       "festival": false
     },
     {
+      "artist": "San Luis en Teatro Coliseo",
+      "event": "San Luis en Teatro Coliseo",
+      "venue": "Teatro Coliseo",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-09-12",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/Sanluis-santiago-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
       "artist": "Profugos en Teatro Caupolicán",
       "event": "Profugos en Teatro Caupolicán",
       "venue": "Teatro Caupolicán",
@@ -236,22 +236,6 @@
       "date": "2026-09-12",
       "platform": "passline",
       "url": "https://www.passline.com/eventos/sodamania-vuelve-a-vina",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Pulso Naranja Abastible 2026 Viña del Mar",
-      "event": "Pulso Naranja Abastible 2026 Viña del Mar",
-      "venue": "Quinta Vergara",
-      "city": "Viña del Mar",
-      "region": "Región Metropolitana",
-      "date": "2026-10-03",
-      "platform": "passline",
-      "url": "https://www.passline.com/eventos/pulso-naranja-abastible-2026-vina-del-mar",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
