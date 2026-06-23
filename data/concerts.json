@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-22T21:34:13.674Z",
+  "lastUpdate": "2026-06-23T14:24:58.261Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 18,
+  "count": 17,
   "concerts": [
     {
       "artist": "Michael Jackson en Teatro Caupolicán",
@@ -60,6 +60,22 @@
       "date": "2026-07-11",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/angela-carrasco-teatro-caupolican-jul-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "event": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "venue": "JOURNAL VIÑA DEL MAR (EX CAFE JOURNAL)",
+      "city": "Valparaíso",
+      "region": "Región Metropolitana",
+      "date": "2026-07-24",
+      "platform": "passline",
+      "url": "https://www.passline.com/eventos/cristobal-briceno-y-el-grupo-crisis-en-journal",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
@@ -180,22 +196,6 @@
       "festival": false
     },
     {
-      "artist": "Pedro Ruminot en Enjoy Vina del Mar",
-      "event": "Pedro Ruminot en Enjoy Vina del Mar",
-      "venue": "Hotel del Mar - Enjoy",
-      "city": "Viña del Mar",
-      "region": "Región Metropolitana",
-      "date": "2026-08-15",
-      "platform": "ticketplus",
-      "url": "https://ticketplus.cl/events/pedro-ruminot-en-enjoy-vina-del-mar-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
       "artist": "Joaquin Cortés en Movistar Arena",
       "event": "Joaquin Cortés en Movistar Arena",
       "venue": "Movistar Arena",
@@ -268,22 +268,6 @@
       "date": "2026-10-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/alex-ubago-enjoy-vina-del-mar-oct-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Bandalos Chinos en Teatro Municipal de Vina del Mar",
-      "event": "Bandalos Chinos en Teatro Municipal de Vina del Mar",
-      "venue": "Teatro Municipal de Viña del Mar",
-      "city": "Viña del Mar",
-      "region": "Región Metropolitana",
-      "date": "2026-10-07",
-      "platform": "ticketplus",
-      "url": "https://ticketplus.cl/events/bandalos-chinos-teatro-municipal-vina-del-mar",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
