@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-23T14:24:58.261Z",
+  "lastUpdate": "2026-06-24T14:04:43.983Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 17,
+  "count": 16,
   "concerts": [
     {
       "artist": "Michael Jackson en Teatro Caupolicán",
@@ -76,22 +76,6 @@
       "date": "2026-07-24",
       "platform": "passline",
       "url": "https://www.passline.com/eventos/cristobal-briceno-y-el-grupo-crisis-en-journal",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "El Divo de Juarez",
-      "event": "El Divo de Juarez",
-      "venue": "Teatro Caupolicán",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-07-26",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/el-divo-de-juarez-teatro-caupolican-jul-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
