@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-24T14:04:43.983Z",
+  "lastUpdate": "2026-06-25T14:01:36.166Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 16,
+  "count": 15,
   "concerts": [
     {
       "artist": "Michael Jackson en Teatro Caupolicán",
@@ -172,22 +172,6 @@
       "date": "2026-08-15",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/los-jaivas-teatro-municipal-de-vina-del-mar-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Joaquin Cortés en Movistar Arena",
-      "event": "Joaquin Cortés en Movistar Arena",
-      "venue": "Movistar Arena",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-08-19",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
