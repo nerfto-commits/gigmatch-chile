@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-06-25T14:01:36.166Z",
+  "lastUpdate": "2026-06-26T14:01:09.845Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 15,
+  "count": 16,
   "concerts": [
     {
       "artist": "Michael Jackson en Teatro Caupolicán",
@@ -236,6 +236,22 @@
       "date": "2026-10-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/alex-ubago-enjoy-vina-del-mar-oct-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Los Jaivas",
+      "event": "Los Jaivas",
+      "venue": "Teatro Caupolicán",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-10-10",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/los-jaivas-santiago-teatro-caupolican-oct-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
