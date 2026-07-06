@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-07-05T13:05:29.779Z",
+  "lastUpdate": "2026-07-06T14:57:35.986Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 13,
+  "count": 14,
   "concerts": [
     {
       "artist": "Cristóbal Briceño y el Grupo Crisis en Journal",
@@ -204,6 +204,22 @@
       "date": "2026-10-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/alex-ubago-enjoy-vina-del-mar-oct-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Candelabro en Teatro Caupolicán",
+      "event": "Candelabro en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-12-08",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/candelabro-caupolican-dic-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
