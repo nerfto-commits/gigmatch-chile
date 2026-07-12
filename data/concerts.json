@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-07-11T12:53:05.979Z",
+  "lastUpdate": "2026-07-12T12:53:45.216Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 13,
+  "count": 14,
   "concerts": [
     {
       "artist": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
@@ -140,6 +140,22 @@
       "date": "2026-09-12",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/profugos-teatro-caupolican-sep-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "40 años pateando piedras en Teatro Caupolicán",
+      "event": "40 años pateando piedras en Teatro Caupolicán",
+      "venue": "Teatro Caupolicán",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-09-15",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/40-anos-pateando-piedras-teatro-caupolican-sep-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
