@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-07-12T12:53:45.216Z",
+  "lastUpdate": "2026-07-13T14:02:49.846Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 14,
+  "count": 13,
   "concerts": [
     {
       "artist": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
@@ -188,22 +188,6 @@
       "date": "2026-10-10",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/los-jaivas-santiago-teatro-caupolican-oct-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
-    {
-      "artist": "Illapu 55 años, Viña del Mar",
-      "event": "Illapu 55 años, Viña del Mar",
-      "venue": "Teatro Municipal de Viña del Mar",
-      "city": "Viña del Mar",
-      "region": "Región Metropolitana",
-      "date": "2026-10-29",
-      "platform": "passline",
-      "url": "https://www.passline.com/eventos/illapu-55-anos-vina-del-mar",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
