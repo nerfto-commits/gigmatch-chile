@@ -1,8 +1,24 @@
 {
-  "lastUpdate": "2026-07-13T14:02:49.846Z",
+  "lastUpdate": "2026-07-14T13:06:50.769Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 13,
+  "count": 14,
   "concerts": [
+    {
+      "artist": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "event": "Cristóbal Briceño y el Grupo Crisis en Journal",
+      "venue": "JOURNAL VIÑA DEL MAR (EX CAFE JOURNAL)",
+      "city": "Valparaíso",
+      "region": "Región Metropolitana",
+      "date": "2026-07-24",
+      "platform": "passline",
+      "url": "https://www.passline.com/eventos/cristobal-briceno-y-el-grupo-crisis-en-journal",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
     {
       "artist": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
       "event": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
