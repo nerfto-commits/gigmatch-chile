@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-07-23T13:22:14.122Z",
+  "lastUpdate": "2026-07-24T13:16:09.297Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 15,
+  "count": 16,
   "concerts": [
     {
       "artist": "Cristóbal Briceño y el Grupo Crisis en Journal",
@@ -172,6 +172,22 @@
       "date": "2026-09-12",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/profugos-teatro-caupolican-sep-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Sodamania vuelve a viña",
+      "event": "Sodamania vuelve a viña",
+      "venue": "JOURNAL VIÑA DEL MAR (EX CAFE JOURNAL)",
+      "city": "Valparaíso",
+      "region": "Región Metropolitana",
+      "date": "2026-09-12",
+      "platform": "passline",
+      "url": "https://www.passline.com/eventos/sodamania-vuelve-a-vina",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
