@@ -1,24 +1,8 @@
 {
-  "lastUpdate": "2026-07-26T12:56:03.251Z",
+  "lastUpdate": "2026-07-27T14:08:37.981Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 15,
   "concerts": [
-    {
-      "artist": "El Divo de Juarez",
-      "event": "El Divo de Juarez",
-      "venue": "Teatro Caupolicán",
-      "city": "Santiago",
-      "region": "Región Metropolitana",
-      "date": "2026-07-26",
-      "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/el-divo-de-juarez-teatro-caupolican-jul-2026",
-      "minPrice": 0,
-      "maxPrice": 0,
-      "status": "general_sale",
-      "genre": "música",
-      "hot": false,
-      "festival": false
-    },
     {
       "artist": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
       "event": "Aniversario 19 Años Bar Victoria en Teatro Caupolicán",
@@ -204,6 +188,22 @@
       "date": "2026-10-04",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/alex-ubago-enjoy-vina-del-mar-oct-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Los Jaivas",
+      "event": "Los Jaivas",
+      "venue": "Teatro Caupolicán",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "date": "2026-10-10",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/los-jaivas-santiago-teatro-caupolican-oct-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
