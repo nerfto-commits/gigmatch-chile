@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-07-29T13:43:20.314Z",
+  "lastUpdate": "2026-07-30T13:24:59.514Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
   "count": 5,
   "concerts": [
     {
-      "artist": "Joaquin Cortés en Movistar Arena",
-      "event": "Joaquin Cortés en Movistar Arena",
-      "venue": "Movistar Arena",
+      "artist": "Rata Blanca en Teatro Coliseo",
+      "event": "Rata Blanca en Teatro Coliseo",
+      "venue": "Teatro Coliseo",
       "city": "Santiago",
       "region": "Región Metropolitana",
-      "date": "2026-08-19",
+      "date": "2026-08-29",
       "platform": "puntoticket",
-      "url": "https://www.puntoticket.com/evento/joaquin-cortes-movistar-arena-ago-2026",
+      "url": "https://www.puntoticket.com/evento/rata-blanca-teatro-coliseo-ago-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
