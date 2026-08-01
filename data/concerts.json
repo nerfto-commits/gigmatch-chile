@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-07-31T13:29:16.155Z",
+  "lastUpdate": "2026-08-01T12:54:25.475Z",
   "source": "SerpAPI Google Events (Chile) — automated daily refresh",
-  "count": 5,
+  "count": 6,
   "concerts": [
     {
       "artist": "Rata Blanca en Teatro Coliseo",
@@ -12,6 +12,22 @@
       "date": "2026-08-29",
       "platform": "puntoticket",
       "url": "https://www.puntoticket.com/evento/rata-blanca-teatro-coliseo-ago-2026",
+      "minPrice": 0,
+      "maxPrice": 0,
+      "status": "general_sale",
+      "genre": "música",
+      "hot": false,
+      "festival": false
+    },
+    {
+      "artist": "Alex Ubago",
+      "event": "Alex Ubago",
+      "venue": "Hotel del Mar - Enjoy",
+      "city": "Viña del Mar",
+      "region": "Región Metropolitana",
+      "date": "2026-10-04",
+      "platform": "puntoticket",
+      "url": "https://www.puntoticket.com/evento/alex-ubago-enjoy-vina-del-mar-oct-2026",
       "minPrice": 0,
       "maxPrice": 0,
       "status": "general_sale",
